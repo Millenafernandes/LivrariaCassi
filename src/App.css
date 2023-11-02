@@ -1,0 +1,15 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+
+  background-image: linear-gradient(90deg, #f77e04 35%, #f7a737);
+}
+
+
+li{
+  list-style: none;
+  display: flex;
+  margin-right: 30px;
+  cursor:pointer;
+  
+}
