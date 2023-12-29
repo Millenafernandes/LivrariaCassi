@@ -1,14 +1,27 @@
-import './style.css';
-import Logo from '../../components/logo';
 
+import Logo from '../../components/logo';
 import Lista from '../../components/Lista';
 import ListaIcone from '../../components/ListaIcone';
+import styled from 'styled-components';
 
-//teste010
+
+const AppHeader = styled.header`
+
+    background-color: #FFF;
+    display: flex;
+
+
+  .logo{
+    margin-left: 50px;
+  }
+
+
+`
+
 function Header(){
 
 return(
-<header className='App-header'>
+<AppHeader>
 
         <Logo/>
         
@@ -16,7 +29,8 @@ return(
 
         <ListaIcone/>
     
-      </header>
+      
+</AppHeader>
 
 );
 } export default Header;

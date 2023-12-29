@@ -1,13 +1,30 @@
+import styled from 'styled-components';
 
-import './App.css';
+import AppHeader from './components/Header';
+import Pesquisa from './components/Pesquisa';
 
-import Header from './components/Header';
+const AppContainer = styled.div `
+
+
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg, #f77e04 35%, #f7a737);
+  
+
+
+
+`
 
 function App() {
   return (
-    <div className='App'>
-     <Header/> 
-    </div>
+    <AppContainer>
+     
+     <AppHeader/> 
+
+     <Pesquisa></Pesquisa>
+    
+     </AppContainer>
+   
   );
 }
 
