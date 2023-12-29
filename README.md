@@ -1,1 +1,3 @@
-# coisas importantes no React
+# Coisas importantes no React
+* Pasta de components
+* App.js
